@@ -1,0 +1,41 @@
+_report.txt file Nmap Multi-scan Report
+Target: 192.168.0.206
+Scan Timestamp: 2025-09-30 05:51:27
+
+Scans performed and raw outputs:
+ - syn_scan.nmap / syn_scan.xml / syn_scan.gnmap
+ - tcp_connect_scan.nmap / tcp_connect_scan.xml / tcp_connect_scan.gnmap
+ - udp_scan.nmap / udp_scan.xml / udp_scan.gnmap
+
+Discovered open/filtered ports (consolidated):
+
+| Host | Port | Proto | State | Service | Version | Detected by |
+|------|------|-------|-------|---------|---------|-------------|
+| 192.168.0.206 | 135 | tcp | open | msrpc | Microsoft Windows RPC | SYN,TCP-CONNECT |
+| 192.168.0.206 | 139 | tcp | open | netbios-ssn | Microsoft Windows netbios-ssn | SYN,TCP-CONNECT |
+| 192.168.0.206 | 445 | tcp | open | microsoft-ds |  | SYN,TCP-CONNECT |
+| 192.168.0.206 | 913 | tcp | open | vmware-auth | VMware Authentication Daemon 1.0 Uses VNC, SOAP | SYN,TCP-CONNECT |
+| 192.168.0.206 | 1521 | tcp | open | oracle-tns | Oracle TNS Listener 10.2.0.1.0 for 32-bit Windows | SYN,TCP-CONNECT |
+| 192.168.0.206 | 3032 | tcp | open | tcpwrapped |  | SYN |
+| 192.168.0.206 | 5040 | tcp | open |  |  | SYN,TCP-CONNECT |
+| 192.168.0.206 | 35803 | tcp | open | tcpwrapped |  | SYN |
+| 192.168.0.206 | 49664 | tcp | open | msrpc | Microsoft Windows RPC | SYN,TCP-CONNECT |
+| 192.168.0.206 | 49665 | tcp | open | msrpc | Microsoft Windows RPC | SYN,TCP-CONNECT |
+| 192.168.0.206 | 49666 | tcp | open | msrpc | Microsoft Windows RPC | SYN,TCP-CONNECT |
+| 192.168.0.206 | 49667 | tcp | open | msrpc | Microsoft Windows RPC | SYN,TCP-CONNECT |
+| 192.168.0.206 | 49668 | tcp | open |  |  | SYN |
+| 192.168.0.206 | 49671 | tcp | open | oracle | Oracle Database | SYN,TCP-CONNECT |
+| 192.168.0.206 | 49674 | tcp | open | msrpc | Microsoft Windows RPC | SYN,TCP-CONNECT |
+| 192.168.0.206 | 137 | tcp | closed | netbios-ns |  | TCP-CONNECT |
+| 192.168.0.206 | 903 | tcp | open | vmware-auth | VMware Authentication Daemon 1.10 Uses VNC, SOAP | TCP-CONNECT |
+| 192.168.0.206 | 3199 | tcp | open | tcpwrapped |  | TCP-CONNECT |
+| 192.168.0.206 | 8527 | tcp | open | tcpwrapped |  | TCP-CONNECT |
+| 192.168.0.206 | 15841 | tcp | open | tcpwrapped |  | TCP-CONNECT |
+| 192.168.0.206 | 30859 | tcp | open | tcpwrapped |  | TCP-CONNECT |
+| 192.168.0.206 | 57360 | tcp | open | tcpwrapped |  | TCP-CONNECT |
+
+Notes:
+ - 'Detected by' column lists which scans saw the port (SYN, TCP-CONNECT, UDP-TOP100).
+ - Raw nmap output files (.nmap, .xml) are in this folder with the base names listed above.
+
+Scan complete.

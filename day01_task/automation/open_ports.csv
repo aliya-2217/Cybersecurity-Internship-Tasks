@@ -1,0 +1,23 @@
+host_ip,port,protocol,state,service,version,detected_by
+192.168.0.206,135,tcp,open,msrpc,Microsoft Windows RPC,"SYN,TCP-CONNECT"
+192.168.0.206,137,tcp,closed,netbios-ns,,TCP-CONNECT
+192.168.0.206,139,tcp,open,netbios-ssn,Microsoft Windows netbios-ssn,"SYN,TCP-CONNECT"
+192.168.0.206,445,tcp,open,microsoft-ds,,"SYN,TCP-CONNECT"
+192.168.0.206,903,tcp,open,vmware-auth,"VMware Authentication Daemon 1.10 Uses VNC, SOAP",TCP-CONNECT
+192.168.0.206,913,tcp,open,vmware-auth,"VMware Authentication Daemon 1.0 Uses VNC, SOAP","SYN,TCP-CONNECT"
+192.168.0.206,1521,tcp,open,oracle-tns,Oracle TNS Listener 10.2.0.1.0 for 32-bit Windows,"SYN,TCP-CONNECT"
+192.168.0.206,3032,tcp,open,tcpwrapped,,SYN
+192.168.0.206,3199,tcp,open,tcpwrapped,,TCP-CONNECT
+192.168.0.206,5040,tcp,open,,,"SYN,TCP-CONNECT"
+192.168.0.206,8527,tcp,open,tcpwrapped,,TCP-CONNECT
+192.168.0.206,15841,tcp,open,tcpwrapped,,TCP-CONNECT
+192.168.0.206,30859,tcp,open,tcpwrapped,,TCP-CONNECT
+192.168.0.206,35803,tcp,open,tcpwrapped,,SYN
+192.168.0.206,49664,tcp,open,msrpc,Microsoft Windows RPC,"SYN,TCP-CONNECT"
+192.168.0.206,49665,tcp,open,msrpc,Microsoft Windows RPC,"SYN,TCP-CONNECT"
+192.168.0.206,49666,tcp,open,msrpc,Microsoft Windows RPC,"SYN,TCP-CONNECT"
+192.168.0.206,49667,tcp,open,msrpc,Microsoft Windows RPC,"SYN,TCP-CONNECT"
+192.168.0.206,49668,tcp,open,,,SYN
+192.168.0.206,49671,tcp,open,oracle,Oracle Database,"SYN,TCP-CONNECT"
+192.168.0.206,49674,tcp,open,msrpc,Microsoft Windows RPC,"SYN,TCP-CONNECT"
+192.168.0.206,57360,tcp,open,tcpwrapped,,TCP-CONNECT
