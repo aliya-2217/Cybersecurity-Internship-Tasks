@@ -5,16 +5,23 @@ Each task includes detailed reports, evidence, and automation code.
 
 ---
 
-## 📌 Task 01: Networking Fundamentals, Nmap Scanning, and Automation Scripting
-- **Report**: [task01_report.pdf](./Task01/Report/task01_report.pdf)
-- **Automation Script**: [nmap_automation.py](./Task01/Automation/nmap_automation.py)
-- **Outputs**: `scan_report.txt`, `open_ports.csv`
+## Task 01 — Networking Fundamentals, Nmap Scanning, and Automation Scripting
 
-### Key Learnings
-- Gained hands-on experience with Nmap (`-sS`, `-sT`, `-sU` scans).
-- Identified open ports and analyzed security risks.
-- Automated scans using Python (`python-nmap`) and generated structured reports.
+### 🔍 Overview
+This task focused on mastering the fundamentals of network scanning and automation using **Nmap** and **Python**.  
+The goal was to identify open ports, analyze potential security risks, and automate the scanning process.
 
+### 📂 Files Included
+- `task01_report.pdf` — Complete documentation and scan analysis.
+- `nmap_automation.py` — Python script automating Nmap scans.
+- `scan_report.txt` — Consolidated results from SYN, TCP, and UDP scans.
+- `open_ports.csv` — Extracted list of open ports and detected services.
+
+### 🧠 Key Learnings
+- Performed and analyzed **Nmap** scans (`-sS`, `-sT`, `-sU`) effectively.
+- Identified and understood open ports, running services, and associated risks.
+- Automated scanning with **Python (python-nmap)** and generated structured reports.
+- Strengthened understanding of **network protocols** and **vulnerability enumeration**.
 ---
 ## Task 02 — Packet Sniffing, Firewall Configuration, and Vulnerability Scanning
 
